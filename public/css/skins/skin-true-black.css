@@ -1,0 +1,170 @@
+/*
+ * Skin: True Black
+ * ----------
+ */
+.skin-true-black .main-header .navbar {
+    background-color: #000000;
+}
+
+.skin-true-black .main-header .navbar .nav > li > a {
+    color: #ffffff;
+}
+
+.skin-true-black .main-header .navbar .nav > li > a:hover,
+.skin-true-black .main-header .navbar .nav > li > a:active,
+.skin-true-black .main-header .navbar .nav > li > a:focus,
+.skin-true-black .main-header .navbar .nav .open > a,
+.skin-true-black .main-header .navbar .nav .open > a:hover,
+.skin-true-black .main-header .navbar .nav .open > a:focus,
+.skin-true-black .main-header .navbar .nav > .active > a {
+    background: rgba(0, 0, 0, 0.1);
+    color: #f6f6f6;
+}
+
+.skin-true-black .main-header .navbar .sidebar-toggle {
+    color: #ffffff;
+}
+
+.skin-true-black .main-header .navbar .sidebar-toggle:hover {
+    color: #f6f6f6;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.skin-true-black .main-header .navbar .sidebar-toggle {
+    color: #fff;
+}
+
+.skin-true-black .main-header .navbar .sidebar-toggle:hover {
+    background-color: #000000;
+}
+
+@media (max-width: 767px) {
+    .skin-true-black .main-header .navbar .dropdown-menu li.divider {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .skin-true-black .main-header .navbar .dropdown-menu li a {
+        color: #fff;
+    }
+
+    .skin-true-black .main-header .navbar .dropdown-menu li a:hover {
+        background: #000000;
+    }
+}
+
+.skin-true-black .main-header .logo {
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-true-black .main-header .logo:hover {
+    background-color: #000000;
+}
+
+.skin-true-black .main-header li.user-header {
+    background-color: #000000;
+}
+
+.skin-true-black .content-header {
+    background: transparent;
+}
+
+.skin-true-black .wrapper,
+.skin-true-black .main-sidebar,
+.skin-true-black .left-side {
+    background-color: #222d32;
+}
+
+.skin-true-black .user-panel > .info,
+.skin-true-black .user-panel > .info > a {
+    color: #fff;
+}
+
+.skin-true-black .sidebar-menu > li.header {
+    color: #4b646f;
+    background: #1a2226;
+}
+
+.skin-true-black .sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+}
+
+.skin-true-black .sidebar-menu > li:hover > a,
+.skin-true-black .sidebar-menu > li.active > a {
+    color: #ffffff;
+    background: #1e282c;
+    border-left-color: #000000;
+}
+
+.skin-true-black .sidebar-menu > li > .treeview-menu {
+    margin: 0 1px;
+    background: #2c3b41;
+}
+
+.skin-true-black .sidebar a {
+    color: #b8c7ce;
+}
+
+.skin-true-black .sidebar a:hover {
+    text-decoration: none;
+}
+
+.skin-true-black .treeview-menu > li > a {
+    color: #8aa4af;
+}
+
+.skin-true-black .treeview-menu > li.active > a,
+.skin-true-black .treeview-menu > li > a:hover {
+    color: #ffffff;
+}
+
+.skin-true-black .sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #374850;
+    margin: 10px 10px;
+}
+
+.skin-true-black .sidebar-form input[type="text"],
+.skin-true-black .sidebar-form .btn {
+    box-shadow: none;
+    background-color: #374850;
+    border: 1px solid transparent;
+    height: 35px;
+}
+
+.skin-true-black .sidebar-form input[type="text"] {
+    color: #666;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+}
+
+.skin-true-black .sidebar-form input[type="text"]:focus,
+.skin-true-black .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    background-color: #fff;
+    color: #666;
+}
+
+.skin-true-black .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    border-left-color: #fff;
+}
+
+.skin-true-black .sidebar-form .btn {
+    color: #999;
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0;
+}
+
+.skin-true-black.layout-top-nav .main-header > .logo {
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-true-black.layout-top-nav .main-header > .logo:hover {
+    background-color: #3b8ab8;
+}

@@ -1,0 +1,89 @@
+.box-body {
+  margin-top: 20px;
+}
+
+.panel-body {
+  padding: 30px 15px 15px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.panel-default > .panel-heading {
+  background-color: #3c8dbc;
+  color: white;
+}
+
+.lead {
+  margin-bottom: 5px;
+}
+
+.nav-tabs {
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-item {
+  flex: auto;
+}
+
+tr.canceled td {
+  text-decoration: line-through;
+}
+
+tr.canceled td:last-child {
+  text-decoration: none;
+}
+
+.help-inline {
+  position: absolute;
+}
+
+table {
+  &#ticketTable {
+    tr {
+      border-bottom: 5px solid white;
+
+      &.green {
+        font-weight: bold;
+        color: white;
+        background-color: #5cb85c;
+      }
+      &.red {
+        font-weight: bold;
+        color: white;
+        background-color: #d9534f;
+      }
+      &.amber {
+        font-weight: bold;
+        color: white;
+        background-color: #f0ad4e;
+      }
+
+      td {
+        &.seatType {
+          vertical-align: middle !important;
+          font-weight: 600;
+          border-right: 5px solid white;
+        }
+
+        .form-group {
+          margin: 10px 25px;
+
+          .form-control {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
